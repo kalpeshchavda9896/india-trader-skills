@@ -1,0 +1,26 @@
+{
+  "capital_inr": 10000,
+  "cash_buffer_pct": 10,
+  "max_loss_per_trade_inr": 500,
+  "max_daily_loss_inr": 1000,
+  "max_trades_per_day": 2,
+  "max_position_pct": 100,
+  "min_reward_risk": 1.5,
+  "require_stop": true,
+  "no_entries_before": "09:30",
+  "no_entries_after": "14:45",
+  "flat_by": "15:15",
+  "brokerage_per_order_inr": 20,
+  "other_charges_pct": 0.05,
+  "min_days_to_expiry": 2,
+  "allow_options": true,
+  "blocked": [],
+  "paper": true,
+  "lot_sizes": {
+    "NIFTY": 65,
+    "BANKNIFTY": 30,
+    "FINNIFTY": 60,
+    "MIDCPNIFTY": 120,
+    "SENSEX": 20
+  }
+}

@@ -1,0 +1,15 @@
+# Your own trading data (never commit)
+trader/
+*.journal.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code local files
+.claude/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
